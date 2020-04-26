@@ -25,5 +25,29 @@ public class Animal {
         this.nombre = nombre;
         this.tipo = tipo;
     }
+
+    public int getNumpatas() {
+        return numpatas;
+    }
+
+    public void setNumpatas(int numpatas) {
+        this.numpatas = numpatas;
+    }
+
+    public String getNombre() {
+        return nombre;
+    }
+
+    public void setNombre(String nombre) {
+        this.nombre = nombre;
+    }
+
+    public String getTipo() {
+        return tipo;
+    }
+
+    public void setTipo(String tipo) {
+        this.tipo = tipo;
+    }
     
 }
